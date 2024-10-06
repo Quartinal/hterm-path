@@ -1,0 +1,11 @@
+{
+    "name": "hterm-path",
+    "version": "0.0.1",
+    "description": "The easiest way to add hterm to your project!",
+    "exports": {
+        "default": "./lib/index.cjs",
+        "types": "./lib/index.d.ts",
+        "hterm": "./dist/hterm_all.min.js"
+    },
+    "files": ["lib", "dist", "README.md", "package.json"]
+}
